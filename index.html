@@ -22,6 +22,7 @@
     <nav class="nav">
       <a href="#live">LIVE OPS</a>
       <a href="#games">GAME ROSTER</a>
+      <a href="#squad">PANDA SQUAD</a>
       <a href="#schedule">SCHEDULE</a>
       <a href="#community">COMMUNITY</a>
     </nav>
@@ -76,6 +77,8 @@
           <a class="button button-primary full" href="https://www.twitch.tv/DrTyCompton" target="_blank" rel="noopener">OPEN TWITCH CHANNEL ↗</a>
           <div class="intel-row"><span>CALLSIGN</span><b>DRTYCOMPTON</b></div>
           <div class="intel-row"><span>PLATFORM</span><b>TWITCH</b></div>
+          <div class="intel-row"><span>LIVE STATUS</span><b id="stream-status" class="status-offline">CHECKING...</b></div>
+          <p class="status-note" id="status-note">Checking the channel status…</p>
         </aside>
       </div>
     </section>
@@ -105,9 +108,36 @@
       <p class="small-note">Game roster can be updated any time as new operations are added.</p>
     </section>
 
+    <section class="section squad-section" id="squad">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 // MEET THE UNIT</p><h2>THE PANDA <span>SQUAD</span></h2></div>
+        <span class="section-code">UNIT DOSSIER</span>
+      </div>
+      <div class="squad-grid">
+        <article class="squad-card commander-card">
+          <div class="squad-icon">🐼</div>
+          <p class="game-tag">COMMANDING OFFICER</p>
+          <h3>THE PANDA COMMANDER</h3>
+          <p>Leading every operation with a steady aim, a fearless attitude, and absolutely no plans to retreat.</p>
+        </article>
+        <article class="squad-card">
+          <div class="squad-icon">⚔️</div>
+          <p class="game-tag">FIELD UNIT</p>
+          <h3>PANDA SQUAD</h3>
+          <p>A battle-ready crew built for teamwork, wild missions, clutch moments, and good times with the community.</p>
+        </article>
+        <article class="squad-card k9-card">
+          <div class="squad-icon">🐕</div>
+          <p class="game-tag">K9 SUPPORT</p>
+          <h3>THE K9 UNIT</h3>
+          <p>Four paws on patrol and always ready to ride along. The squad's loyal American Pit Bull sidekick.</p>
+        </article>
+      </div>
+    </section>
+
     <section class="section schedule-section" id="schedule">
       <div class="section-heading">
-        <div><p class="eyebrow">03 // DEPLOYMENT TIMES</p><h2>STREAM <span>SCHEDULE</span></h2></div>
+        <div><p class="eyebrow">04 // DEPLOYMENT TIMES</p><h2>STREAM <span>SCHEDULE</span></h2></div>
         <span class="section-code">FIELD ORDERS</span>
       </div>
       <div class="schedule-box">
@@ -119,10 +149,17 @@
 
     <section class="community-section" id="community">
       <div class="community-inner">
-        <p class="eyebrow">04 // UNIT RALLY POINT</p>
+        <p class="eyebrow">05 // UNIT RALLY POINT</p>
         <h2>THE BATTLE'S<br><span>BETTER TOGETHER.</span></h2>
         <p>Join the community, catch the next stream, and make some noise in chat.</p>
-        <a class="button button-primary" href="https://www.twitch.tv/DrTyCompton" target="_blank" rel="noopener">FOLLOW THE CHANNEL ↗</a>
+        <div class="community-actions">
+          <a class="button button-primary" href="https://www.twitch.tv/DrTyCompton" target="_blank" rel="noopener">FOLLOW THE CHANNEL ↗</a>
+          <a class="button button-ghost" href="https://www.twitch.tv/popout/DrTyCompton/chat?popout=" target="_blank" rel="noopener">OPEN TWITCH CHAT ↗</a>
+        </div>
+        <div class="chat-panel">
+          <div class="frame-top"><span>/// COMMUNITY COMMS</span><span>LIVE CHAT</span></div>
+          <div id="twitch-chat" class="chat-placeholder">Twitch chat loads when this site is opened on its GitHub Pages address.</div>
+        </div>
       </div>
       <div class="target target-one"></div><div class="target target-two"></div>
     </section>
