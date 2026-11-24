@@ -1,20 +1,17 @@
-DRTYCOMPTON GAMING HQ — UPDATED WEBSITE
+DrTyCompton Gaming HQ - Community Upgrade
 
-Included:
-- index.html: website content
-- styles.css: tactical dark/green design with the new homepage banner
-- script.js: mobile navigation, current year, Twitch player embed
-- panda-squad-banner.png: approved World of Tanks / WWII Sherman / Panda Squad / K9 banner
+Upload/replace these files in the ROOT of your GitHub Pages repository:
+- index.html
+- styles.css
+- script.js
+- README.txt
+- panda-squad-banner.png
 
-UPLOAD / UPDATE:
-1. Open your GitHub repository: drtycompton-gaming-hq.
-2. Upload these five files to the repository's main/root folder.
-3. If GitHub asks whether to replace existing files, confirm the update.
-4. Open Settings > Pages and make sure deployment is set to main and /(root).
-5. Wait a few minutes, then refresh your published website.
+New features:
+- Twitch live/offline indicator using DecAPI's public Twitch uptime endpoint (may be delayed by caching).
+- Embedded Twitch chat and direct chat link.
+- Panda Commander, Panda Squad, and K9 unit section.
+- Expanded game roster section retained.
 
-The Twitch player detects the deployed hostname automatically.
-Your site URL will look like:
-https://YOUR-GITHUB-USERNAME.github.io/drtycompton-gaming-hq/
-
-Hosting: GitHub Pages (free for public repositories).
+Important: Keep panda-squad-banner.png in the same root folder as index.html.
+Twitch embeds require the website to be viewed on its GitHub Pages hostname.
